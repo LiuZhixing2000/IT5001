@@ -90,40 +90,40 @@
 # 19. error
 # 20. error
 
-a = (('A', 2), ('B', 3), (1, 4))
-dict_a = dict(a)
-print('1.', dict_a)
-#print('2.', dict_a[2])
-print('3.', dict_a.get(2))
-b = [[1, 'A'], [(2, 3), 4]]
-dict_b = dict(b)
-print('4.', dict_b)
-print('5.', dict_b[(2,3)])
-for key in dict_b.keys():
-    print('6.', key)
-for val in dict_b.values():
-    print('7.', val)
-for key,val in dict_b.items():
-    print('8.',key, val)
-del dict_b[(2, 3)]
-print('9.', dict_b)
-#del dict_b[2]
-print('10.', dict_b)
-print(tuple(dict_a.keys()))
-print('11.', list(dict_a.values()))
-dict_c = {1: {2: 3}, 4: 5}
-print('12.', dict_c)
-dict_d = dict_c.copy()
-dict_d[4] = 9
-dict_d[1][2] = 9
-print('13.', dict_c)
-dict_d.update({2: 10, 3: 20, 4: 7})
-print('14.', dict_d)
-#print('15', dict_d.pop(100))
-print('16', dict_d.popitem())
-dict_c.clear()
-print('17.', dict_c)
-print('18.', dict_d)
-del dict_c
-#print('19.', dict_c)
-print('20.', dict_d[1][2])
+# a = (('A', 2), ('B', 3), (1, 4))
+# dict_a = dict(a)
+# print('1.', dict_a)
+# #print('2.', dict_a[2])
+# print('3.', dict_a.get(2))
+# b = [[1, 'A'], [(2, 3), 4]]
+# dict_b = dict(b)
+# print('4.', dict_b)
+# print('5.', dict_b[(2,3)])
+# for key in dict_b.keys():
+#     print('6.', key)
+# for val in dict_b.values():
+#     print('7.', val)
+# for key,val in dict_b.items():
+#     print('8.',key, val)
+# del dict_b[(2, 3)]
+# print('9.', dict_b)
+# #del dict_b[2]
+# print('10.', dict_b)
+# print(tuple(dict_a.keys()))
+# print('11.', list(dict_a.values()))
+# dict_c = {1: {2: 3}, 4: 5}
+# print('12.', dict_c)
+# dict_d = dict_c.copy()
+# dict_d[4] = 9
+# dict_d[1][2] = 9
+# print('13.', dict_c)
+# dict_d.update({2: 10, 3: 20, 4: 7})
+# print('14.', dict_d)
+# #print('15', dict_d.pop(100))
+# print('16', dict_d.popitem())
+# dict_c.clear()
+# print('17.', dict_c)
+# print('18.', dict_d)
+# del dict_c
+# #print('19.', dict_c)
+# print('20.', dict_d[1][2])
